@@ -1,38 +1,38 @@
-# Metas-pro
+# Guía de Configuración de Metas-pro
 
-## PREREQUISITOS 
+## Requisitos Previos
 
-  Necesitaremos lo siguiente para comenzar:
+ Para comenzar, asegúrate de contar con las siguientes herramientas y configuraciones:
 
-  - Expo Go instalado en un dispositivo físico
-  - Node.js (versión LTS) instalado
-  - VS Code o cualquier otro editor de código preferido o IDE instalado
-  - Un sistema operativo macOS, Linux o Windows (PowerShell y WSL2 ) con una ventana de terminal abierta
+- **Expo Go:** instalado en un dispositivo físico para facilitar la visualización.
+- **Node.js (LTS):** última versión de largo plazo instalada en tu sistema.
+- **Editor de Código:** como VS Code o tu IDE preferido, debidamente configurado.
+- **Sistema Operativo Compatible:** macOS, Linux o Windows (con PowerShell y WSL2 habilitados). Además, una ventana de terminal lista para la ejecución de comandos.
 
-## Get started
+## Instrucciones para la Configuración del Proyecto
 
-1. Install dependencies
+1. Clonar el Repositorio
+ 
+ En una carpeta dedicada dentro de tu entorno de desarrollo, ejecuta el siguiente comando para clonar el repositorio (CMD):
 
+```bash
+  git clone https://github.com/Giuseppe-Giovanni-Ingegnere-Sistemi/Metas-pro-Oficial.git
+   ```
+
+3.Inicio del Proyecto
+
+ Accede a la carpeta clonada y, para instalar las dependencias del proyecto, ejecuta:
+ 
    ```bash
    npm install
    ```
 
-2. Start the app
+4. Inicia el proyecto con el siguiente comando:
+
+Para lanzar la aplicación, utiliza el siguiente comando:
 
    ```bash
     npx expo start
    ```
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Esto iniciará el proyecto y proporcionará un código QR que podrás escanear desde la aplicación Expo Go en tu dispositivo físico.
